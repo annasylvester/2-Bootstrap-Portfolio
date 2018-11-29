@@ -8,6 +8,9 @@
 
 .navbar .navbar-brand {
   margin-left: 20%;
+  font-size: 20px;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  font-weight: bolder;
 }
 
 .navbar #navbarNav {
@@ -189,8 +192,18 @@ input[type=submit]:hover {
   top: 80%;
   left: 50%;
   transform: translate(-50%, -50%);
-  width: 100%;
+  width: 70%;
  }
-  }
+
+input[type=submit] {
+ width: 100px;
+ background-color: #4aaaa5;
+ color: white;
+ padding: 14px 20px;
+ margin: 8px 0;
+ border: none;
+ border-radius: 4px;
+ cursor: pointer;
+}
 
 }
